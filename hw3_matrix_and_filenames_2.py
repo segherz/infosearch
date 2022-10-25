@@ -91,6 +91,9 @@ def get_BM_25(corpus):
 
 
 def initialize_corp_and_matrix():
+    """
+    инициализирует корпус и названия документов для импорта в следующую функцию
+    """
     with open(PATH_TO_DATA, 'r') as f:
         texts = list(f)[:50000]
 
