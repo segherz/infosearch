@@ -1,4 +1,4 @@
-from hw3_matrix_and_filenames_2 import count_vectorizer, preprocess, initialize_corp_and_matrix
+from hw3_matrix_and_filenames import count_vectorizer, preprocess, initialize_corp_and_matrix
 import numpy as np
 
 BM_25, names = initialize_corp_and_matrix()
