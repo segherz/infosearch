@@ -1,5 +1,5 @@
 from hw4_BERT_search import get_BERT_index, corpus, names
-from hw3_matrix_and_filenames_2 import get_corp, get_BM_25
+from hw3_matrix_and_filenames import get_corp, get_BM_25
 import numpy as np
 
 
