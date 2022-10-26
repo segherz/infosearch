@@ -2,7 +2,7 @@ import numpy as np
 import os
 import scipy as sp
 import json
-from hw3_matrix_and_filenames_2 import get_corp
+from hw3_matrix_and_filenames import get_corp
 from transformers import AutoTokenizer, AutoModel
 import torch
 from torch.nn.functional import normalize
