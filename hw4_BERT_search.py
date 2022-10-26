@@ -14,7 +14,7 @@ tokenizer = AutoTokenizer.from_pretrained("sberbank-ai/sbert_large_nlu_ru")
 model = AutoModel.from_pretrained("sberbank-ai/sbert_large_nlu_ru")
 
 with open(PATH_TO_DATA, 'r') as f:
-    texts = list(f)[:500]
+    texts = list(f)[:50000]
 
 corpus, names = get_corp(texts)
 
